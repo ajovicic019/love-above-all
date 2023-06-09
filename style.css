@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  background-color: rgb(0, 3, 51);
 }
 
 .container {
@@ -8,7 +9,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 3, 51, 0.6), rgba(0, 3, 51, 0.6)),
     url("../images/heading-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,6 +52,44 @@ header a {
   padding: 16px 32px;
   border-radius: 8px;
 }
+
+footer {
+  background-image: linear-gradient(rgba(0, 3, 51, 0.8), rgba(0, 3, 51, 0.8)),
+    url("../images/footer1-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0 60px 30px;
